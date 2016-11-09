@@ -12,6 +12,8 @@
 		D42995E41DD0B81200265F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42995E21DD0B81200265F2E /* Main.storyboard */; };
 		D42995E61DD0B81200265F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42995E51DD0B81200265F2E /* Assets.xcassets */; };
 		D42995E91DD0B81200265F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42995E71DD0B81200265F2E /* LaunchScreen.storyboard */; };
+		D47D57E81DD0D560004955F8 /* LGJLabelControlBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D57E71DD0D560004955F8 /* LGJLabelControlBar.swift */; };
+		D47D57EA1DD0D576004955F8 /* LGJLabelControlBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D57E91DD0D576004955F8 /* LGJLabelControlBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D42995E51DD0B81200265F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D42995E81DD0B81200265F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D42995EA1DD0B81200265F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47D57E71DD0D560004955F8 /* LGJLabelControlBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGJLabelControlBar.swift; sourceTree = "<group>"; };
+		D47D57E91DD0D576004955F8 /* LGJLabelControlBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGJLabelControlBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				D42995DE1DD0B81200265F2E /* AppDelegate.swift */,
 				D42995E01DD0B81200265F2E /* ViewController.swift */,
+				D47D57E71DD0D560004955F8 /* LGJLabelControlBar.swift */,
+				D47D57E91DD0D576004955F8 /* LGJLabelControlBarItem.swift */,
 				D42995E21DD0B81200265F2E /* Main.storyboard */,
 				D42995E51DD0B81200265F2E /* Assets.xcassets */,
 				D42995E71DD0B81200265F2E /* LaunchScreen.storyboard */,
@@ -91,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "劉光軍";
 				TargetAttributes = {
 					D42995DA1DD0B81200265F2E = {
@@ -139,6 +145,8 @@
 			files = (
 				D42995E11DD0B81200265F2E /* ViewController.swift in Sources */,
 				D42995DF1DD0B81200265F2E /* AppDelegate.swift in Sources */,
+				D47D57E81DD0D560004955F8 /* LGJLabelControlBar.swift in Sources */,
+				D47D57EA1DD0D576004955F8 /* LGJLabelControlBarItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +190,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +240,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -300,6 +310,7 @@
 				D42995EF1DD0B81200265F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
